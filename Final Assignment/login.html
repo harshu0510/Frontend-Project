@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsh E-Commerce</title>
+
+    <!--
+        style
+     -->
+     <link rel="stylesheet" href="login2.css">
+     <link rel="stylesheet" href="style.css">
+     <!-- 
+        Box-Icons
+      -->
+      <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  
+
+</head>
+<body>
+  <header>
+
+    <div class="header-main">
+     <div class="container">
+      <a href="#" class="logo"><i class='bx bxs-t-shirt' ></i>Harsha Store</a>
+
+      <div class="header-search-container">
+        <input type="search" name="search" class="search-field" placeholder="Enter your product name...">
+        <button class="search-btn">
+          <i class='bx bx-search'></i>
+        </button>
+      </div>
+      
+      <!-- Icons -->
+      <div class="header-icons">
+          <i class='bx bx-menu' id="menu-icon" ></i>
+          <i class='bx bx-search' id="search-icon"></i>
+          <i class='bx bx-cart-alt' id="cart-icon" ></i>
+          <a href="login.html"><i class='bx bx-user' id="user-icon" ></i></a>
+      </div>
+      <!-- Search Box -->
+      <div class="search-box">
+        <input type="search" name="search" placeholder="Search here...">
+      </div>
+
+       <!-- Cart Page -->
+       <div class="cart">
+          <h2 class="cart-title">Your Cart</h2>
+          <!-- Content -->
+          <div class="cart-content">
+          </div>
+          <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">$0</div>
+          </div>
+          <!-- Buy Button -->
+          <button type="button" class="btn">Buy Now</button>
+     </div>
+      
+    </div>
+    <nav class="navbar">
+      <ul class="navitems">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="allproducts.html">All Products</a></li>
+        <li><a href="mens.html">Men's</a>
+             <ul class="dropdown">
+              <li><a href="mens.html">Shirts</a></li>
+              <li><a href="mens.html">Jeans</a></li>
+              <li><a href="mens.html">Hoddie</a></li>
+              <li><a href="mens.html">Kurta</a></li>
+             </ul>
+        </li>
+        <li><a href="women.html">Women's</a>
+          <ul class="dropdown">
+            <li><a href="women.html">Top</a></li>
+            <li><a href="women.html">Jeans</a></li>
+            <li><a href="women.html">Lehnga</a></li>
+            <li><a href="women.html">Kurti</a></li>
+           </ul>
+        </li>
+        <li><a href="kids.html">Kid's</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+      
+  </header>
+
+  <div class="login-container">
+    <form id="loginForm" class="login-form">
+      <h2 style="margin-left: auto 400px;">Login</h2>
+      <div class="input-group">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+      <div class="input-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+
+     <div class="input-group">
+      <button type="submit" class="login">Login</button>
+     </div>
+     <p id="error-msg" class="error-message"></p>
+    </form>
+  </div>
+
+  <script src="code.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

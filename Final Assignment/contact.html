@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsh E-Commerce</title>
+    
+    <!--
+        style
+     -->
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="contact.css">
+     <!-- 
+        Box-Icons
+      -->
+      <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  
+
+</head>
+<body>
+    <header>
+
+      <div class="header-main">
+       <div class="container">
+        <a href="#" class="logo"><i class='bx bxs-t-shirt' ></i>Harsha Store</a>
+
+        <div class="header-search-container">
+          <input type="search" name="search" class="search-field" placeholder="Enter your product name...">
+          <button class="search-btn">
+            <i class='bx bx-search'></i>
+          </button>
+        </div>
+        
+        <!-- Icons -->
+        <div class="header-icons">
+            <i class='bx bx-menu' id="menu-icon" ></i>
+            <i class='bx bx-search' id="search-icon"></i>
+            <i class='bx bx-cart-alt' id="cart-icon" ></i>
+            <a href="login.html"><i class='bx bx-user' id="user-icon" ></i></a>
+        </div>
+        <!-- Search Box -->
+        <div class="search-box">
+          <input type="search" name="search" placeholder="Search here...">
+        </div>
+
+        <!-- Cart -->
+        <div class="cart">
+          <h2 class="cart-title">Your Cart</h2>
+      <!-- Content -->
+      <div class="cart-content">
+        
+      </div>
+      <div class="total">
+        <div class="total-title">Total</div>
+        <div class="total-price">$0</div>
+      </div>
+      <!-- Buy Button -->
+      <button type="button" class="buy-btn">Buy Now</button>
+ </div>
+      </div>
+  </div>
+  <nav class="navbar">
+    <ul class="navitems">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="allproducts.html">All Products</a></li>
+      <li><a href="mens.html">Men's</a>
+           <ul class="dropdown">
+            <li><a href="mens.html">Shirts</a></li>
+            <li><a href="mens.html">Jeans</a></li>
+            <li><a href="mens.html">Hoddie</a></li>
+            <li><a href="mens.html">Kurta</a></li>
+           </ul>
+      </li>
+      <li><a href="women.html">Women's</a>
+        <ul class="dropdown">
+          <li><a href="women.html">Top</a></li>
+          <li><a href="women.html">Jeans</a></li>
+          <li><a href="women.html">Lehnga</a></li>
+          <li><a href="women.html">Kurti</a></li>
+         </ul>
+      </li>
+      <li><a href="kids.html">Kid's</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+      
+    </header>
+  
+    <div class="container-fluid">
+        <div class="form-container">
+          <div class="left-container">
+            <div class="left-inner-container">
+            <h2>Let's Chat</h2>
+            <p>Whether you have a question, want to start a project or            simply want to connect.</p>
+              <br>
+              <p>Feel free to send me a message in the contact form</p>
+          </div>
+            </div>
+          <div class="right-container">
+            <div class="right-inner-container">
+              <form action="#">
+                  <h2 class="lg-view">Contact</h2>
+            <h2 class="sm-view">Let's Chat</h2>
+                 <p>* Required</p>
+
+                <input type="text" placeholder="Name *" class="space" />
+            <input type="email" placeholder="Email *" class="space" />
+                  <input type="text" placeholder="Company" class="space"/>
+                  <input type="phone" placeholder="Phone" class="space"/>
+                <textarea rows="4" placeholder="Message"></textarea>
+                  <button type="submit" class="btn">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+  <script src="code.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
